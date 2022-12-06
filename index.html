@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="calculatrice.css">
+        <title>Calculatrice</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+                crossorigin="anonymous">
+</head>
+
+<body class="bg-black">
+
+        <div class="parent col-lg-4 mx-auto bg-dark p-3 rounded-4 ">
+                <div class="calcul container mx-auto">
+                        <div class="row position-relative">
+                                <div class="col-lg-11 mx-auto src bar-saisir rounded-4 position-relative">
+
+                                </div>
+                                <i class="bi bi-clock-history" id="histo" onclick="Historiquee()"></i>
+                                <div class="historique rounded-4" id="historique">
+                                        <div class="header">
+                                                <p class="pt-2 ps-2 text-light">Historique </p>
+                                        </div>
+                                        <div class="content text-light" id="hisCont">
+
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="row fs-4 g-3 line4">
+                                <div class="col-lg-3 text-center"><button id="ac"
+                                                class="w-50 btn rounded-4 btn AC ">AC</button></div>
+                                <div class="col-lg-3 text-center">
+                                        <button id="(" class="w-50  rounded-4  btn-primary text-black prnthese ">(
+                                                )</button>
+                                </div>
+                                <div class="col-lg-3 text-center"><button
+                                                class="w-50 prcnt rounded-4  btn-primary text-black " id="%">%</button>
+                                </div>
+                                <div class="col-lg-3 text-center"><button
+                                                class="w-50 btn rounded-4 btn btn-primary text-black " id="/">÷</button>
+                                </div>
+                                <div class="col-lg-3 text-center"><button class="w-50 btn rounded-4 text-white bg-dark"
+                                                id="7">7</button>
+                                </div>
+                                <div class="col-lg-3 text-center"><button class="w-50 btn rounded-4 text-white bg-dark "
+                                                id="8">8</button>
+                                </div>
+                                <div class="col-lg-3 text-center"><button class="w-50 btn rounded-4 text-white bg-dark"
+                                                id="9">9</button>
+                                </div>
+                                <div class="col-lg-3 text-center"><button
+                                                class="w-50 btn rounded-4  btn btn-primary text-black" id="*">×</button>
+                                </div>
+                                <div class="col-lg-3 text-center"><button class="w-50 btn rounded-4 text-white bg-dark"
+                                                id="4">4</button>
+                                </div>
+                                <div class="col-lg-3 text-center"><button class="w-50 btn rounded-4 text-white bg-dark"
+                                                id="5">5</button>
+                                </div>
+                                <div class="col-lg-3 text-center"><button class="w-50 btn rounded-4 text-white bg-dark"
+                                                id="6">6</button>
+                                </div>
+                                <div class="col-lg-3 text-center"><button
+                                                class="w-50 btn rounded-4  btn btn-primary text-black "
+                                                id="-">-</button>
+                                </div>
+                                <div class="col-lg-3 text-center"><button class="w-50 btn rounded-4 text-white bg-dark "
+                                                id="1">1</button>
+                                </div>
+                                <div class="col-lg-3 text-center"><button class="w-50 btn rounded-4 text-white bg-dark "
+                                                id="2">2</button>
+                                </div>
+                                <div class="col-lg-3 text-center"><button class="w-50 btn rounded-4 text-white bg-dark "
+                                                id="3">3</button>
+                                </div>
+                                <div class="col-lg-3 text-center"><button
+                                                class="w-50 btn rounded-4  btn btn-primary text-black" id="+">+</button>
+                                </div>
+                                <div class="col-lg-3 text-center"><button class="w-50 btn rounded-4 text-white bg-dark "
+                                                id="0">0</button>
+                                </div>
+                                <div class="col-lg-3 text-center"><button class="w-50 btn rounded-4 text-white bg-dark "
+                                                id=".">.</button>
+                                </div>
+                                <div class="col-lg-3 text-center"><button class="w-50 rounded-4 text-white bg-dark "
+                                                id="backSpace"><i class="bi bi-backspace"></i></button></div>
+                                <div class="col-lg-3 text-center"><button class="w-50 bb rounded-4 text-white" id="eq"
+                                                >=</button>
+                                </div>
+
+
+                        </div>
+
+
+                </div>
+
+        </div>
+
+
+
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+                crossorigin="anonymous"></script>
+
+        <script src="https://kit.fontawesome.com/552b1297ac.js" crossorigin="anonymous"></script>
+        <script src="calculatrice.js"></script>
+</body>
+
+</html>

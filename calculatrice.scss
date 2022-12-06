@@ -1,0 +1,43 @@
+.AC {
+    background-color: aquamarine !important;
+}
+
+button {
+    box-shadow: white 0px 0px 2px 0px, white 0px 0px 2px 0px;
+    border: none;
+}
+
+.bar-saisir {
+    height: 150px !important;
+    margin-bottom: 15px;
+    margin-bottom: 20px;
+    position: relative !important;
+    background-color: white;
+}
+
+.bi-clock-history {
+    position: absolute !important;
+    color: black !important;
+    left: 420px;
+    top: 8px;
+    z-index: 100 !important;
+}
+
+.historique {
+    background-color: black;
+    width: 300px !important;
+    height: 300px;
+    position: absolute;
+    top: 30px;
+    left: 160px;
+    display: none;
+}
+
+.bb {
+    background-color: green;
+}
+
+.prnthese {
+    background-color: blue;
+    padding-bottom: 3px;
+}
